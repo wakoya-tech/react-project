@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 20px;
+}
+.wrapper button {
+    padding: 10px 20px;
+}
+.accordion{
+width: 500px;
+}
+.item{
+    background: #614101;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.title {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.content{
+    color: #ffffff;
+    height: auto;
+}
