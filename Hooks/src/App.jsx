@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-
 function App() {
 const [brand,setBrand]=useState("ferrari");
 const [model,setModel]=useState("Roma");
